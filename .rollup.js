@@ -1,4 +1,4 @@
-import babel from 'rollup-plugin-babel';
+import babel from '@rollup/plugin-babel';
 
 export default {
 	input: 'index.js',
@@ -9,7 +9,7 @@ export default {
 	plugins: [
 		babel({
 			presets: [
-				['@babel/env', { modules: false, targets: { node: 8 } }]
+				['@babel/env', { modules: false, targets: { node: 16 } }]
 			]
 		})
 	]
