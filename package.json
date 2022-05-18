@@ -1,12 +1,12 @@
 {
-  "name": "react-app-rewire-postcss",
-  "version": "4.0.0",
+  "name": "react-app-rewire-postcss-8",
+  "version": "1.0.0",
   "description": "Configure PostCSS in Create React App without ejecting",
-  "author": "Jonathan Neal <jonathantneal@hotmail.com>",
+  "author": "Jonathan Neal <jonathantneal@hotmail.com>, edited by Hong Hai Nguyen <haismse54.web@gmail.com>",
   "license": "CC0-1.0",
-  "repository": "csstools/react-app-rewire-postcss",
-  "homepage": "https://github.com/csstools/react-app-rewire-postcss#readme",
-  "bugs": "https://github.com/csstools/react-app-rewire-postcss/issues",
+  "repository": "honghainguyen777/react-app-rewire-postcss-8",
+  "homepage": "https://github.com/honghainguyen777/react-app-rewire-postcss-8#readme",
+  "bugs": "https://github.com/honghainguyen777/react-app-rewire-postcss-8/issues",
   "main": "index.cjs.js",
   "module": "index.es.mjs",
   "files": [
@@ -25,17 +25,17 @@
     "node": ">=8.0.0"
   },
   "dependencies": {
-    "postcss-loader": "^3.0.0"
+    "postcss-loader": "^6.2.1"
   },
   "devDependencies": {
-    "@babel/core": "7.4.4",
-    "@babel/preset-env": "7.4.4",
+    "@babel/core": "7.17.12",
+    "@babel/preset-env": "7.17.12",
+    "@rollup/plugin-babel": "^5.3.1",
     "babel-eslint": "10.0.1",
-    "eslint": "5.16.0",
-    "eslint-config-dev": "2.0.0",
+    "eslint": "8.15.0",
+    "eslint-config-dev": "3.0.0",
     "pre-commit": "1.2.2",
-    "rollup": "1.11.3",
-    "rollup-plugin-babel": "4.3.2"
+    "rollup": "2.73.0"
   },
   "eslintConfig": {
     "extends": "dev",
@@ -47,6 +47,7 @@
     "react-app-rewire",
     "rewire",
     "postcss",
+    "postcss 8",
     "postcss-loader",
     "postcss-plugin",
     "css"
